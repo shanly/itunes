@@ -29,7 +29,7 @@ Gem::Specification.new do |s|
   s.add_development_dependency('json', '~> 1.6')
 
   s.add_runtime_dependency('rash', '~> 0.3')
-  s.add_runtime_dependency('faraday_middleware', '~> 0.10.0')
+  s.add_runtime_dependency('faraday_middleware', '~> 0.9.0')
   s.add_runtime_dependency('multi_json', '~> 1.0')
   
   s.files         = `git ls-files`.split("\n")
