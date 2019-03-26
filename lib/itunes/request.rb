@@ -23,8 +23,8 @@ module ITunes
       }
 
       Faraday.new(options) do |builder|
-        builder.use Faraday::Response::Rashify
-        builder.use Faraday::Response::ParseJson
+        # builder.use Faraday::Response::Rashify
+        # builder.use Faraday::Response::ParseJson
         builder.adapter(adapter)
       end
     end
